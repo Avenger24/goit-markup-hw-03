@@ -46,12 +46,14 @@ img {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+     border: 1px solid #ffffff;
 }
 
 
 .navigation {
     display: flex;
     align-items: center;
+    
     
 }
 
@@ -104,6 +106,7 @@ letter-spacing:0.03em;
     
     color: var(--tittle-text-color);
     text-decoration: none;
+   
 
 }
 .site-nav .link:hover,
@@ -258,6 +261,7 @@ color: var(--description-text-color);
 
 .main-photos {
     background-color: #ffffff;
+    
 }
 
 .second-tittle {
@@ -320,6 +324,7 @@ color: var(--tittle-text-color);
 }
 
 .contentt {
+    border: 1px solid var(--background-color);
     
     text-align: center;
     background-color: var(--white-text-color);
@@ -430,6 +435,7 @@ font-weight: 400;
     visibility: hidden;
 }
 .buttons {
+    
     display: block;
     display: flex;
     flex-wrap: wrap;
