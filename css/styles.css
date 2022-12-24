@@ -33,6 +33,12 @@ letter-spacing: 0.02em;
     list-style: none;
 }
 
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
 .mains {
     display: flex;
     align-items: center;
@@ -201,6 +207,7 @@ cursor: pointer;
     
     padding-left: 156px;
     padding-right: 156px;
+   
     display: flex;
     
     flex-wrap: wrap;
@@ -238,7 +245,7 @@ color: var(--tittle-text-color);
 }
 
 .quality .kind {
-    margin: 0;
+    margin-bottom: 120px;
   font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -281,7 +288,7 @@ color: var(--tittle-text-color);
 }
 
 .photos {
-    background-color: var(--background-color);
+    background-color: var(--white-text-color);
 }
 .second {
     padding-bottom: 120px;
@@ -292,50 +299,100 @@ color: var(--tittle-text-color);
 
 .workers {
     display: flex;
+    
+     
     margin-top: 72px;
     padding-left: 156px;
     padding-right: 156px;
+    padding-bottom: 120px;
 }
-.workers > .people {
+    .workers .people {
     flex-basis: calc((100%-72px) / 4);
-    margin-left: auto;
-    margin-right: auto;
+   
+    box-shadow:  0px 1px 6px rgba(46 47 66 0.08),
+    0px 1px 1px rgba(46 47 66 0.16),
+    0px 2px 2px rgba(46 47 66 0.08);
+    
+    border-radius: 0px 0px 4px 4px;
 }
 
-.people .employee {
+.contentt {
+    
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 8px;
-
-}
-.people .features {
-    text-align: center;
+    background-color: var(--white-text-color);
+   
     padding-bottom: 32px;
+
+   
+    
+
+
+}
+
+ .people {
+margin: 24px;
+
+ 
+}
+
+
+  .employee {
+    
+    
+   
+    
+   margin-bottom: 8px;
+    
+
+    
+}
+
+
+ .features .contentt {
+    
+   
+    padding-bottom: 32px;
+    
+     
 }
 
 .workers .employee {
+   
     background-color: var(--white-text-color);
 font-size: 20px;
 line-height: 1.2;
 color: var(--description-text-color);
-    text-align: left;
+    
 }
 
 .workers .features{
+    
+   
+    
     background-color: var(--white-text-color);
     
 font-weight: 400;
 
 color: var(--description-text-color);
-    text-align: left;
+    
 }
 
 .information {
+    display: flex;
+    
+    
+padding-top: 100px;
+
+
     background-color: var(--tittle-text-color);
 }
 
 .secondary-logo {
-    color: var(--background-color);
+    padding-left: 156px;
+padding-right: 1169px;
+margin-bottom: 16px;
+    
+color: var(--background-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
 font-weight: 800;
@@ -349,6 +406,13 @@ letter-spacing:0.03em;
 }
 
 .second-kind {
+
+    padding-left: 156px;
+    padding-right: 1020px;
+    padding-bottom: 100px;
+    
+    
+    
     color: #E7E9FC;
     
 font-weight: 400;
@@ -363,13 +427,25 @@ font-weight: 400;
     visibility: hidden;
 }
 .buttons {
-    
-letter-spacing: 0.04em;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100%-96px) / 5);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:  427px;
+    padding-right: 427px;
+    margin-bottom: 72px;
+
+
+    letter-spacing: 0.04em;
 
 
 }
 
 .first-button {
+    
+    padding: 12px 24px;
     background-color: var(--brand-color);
     color: var(--white-text-color);
 }
@@ -383,6 +459,8 @@ letter-spacing: 0.04em;
 
 
 .second-button {
+    margin-left: 24px;
+    padding: 12px 24px;
     background-color: #E7E9FC;
     color: var(--brand-color);
     cursor: pointer;
@@ -400,9 +478,21 @@ letter-spacing: 0.04em;
 
 
 .img {
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: 84px;
+    padding-left: 156px;
+    padding-right: 156px;
+
     
 font-size: 20px;
 line-height: 1.2;
+ }
+
+ .img .thumbs {
+    flex-basis: calc((100%-144px) / 9);
+    margin-left: 24px;
+    margin-bottom: 48px;
  }
 
 
