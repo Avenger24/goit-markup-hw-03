@@ -308,12 +308,13 @@ color: var(--tittle-text-color);
 }
     .workers .people {
     flex-basis: calc((100%-72px) / 4);
+    
    
     box-shadow:  0px 1px 6px rgba(46 47 66 0.08),
     0px 1px 1px rgba(46 47 66 0.16),
     0px 2px 2px rgba(46 47 66 0.08);
     
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 4px 4px;
 }
 
 .contentt {
@@ -480,28 +481,41 @@ font-weight: 400;
 .img {
     display: flex; 
     flex-wrap: wrap;
-    margin-top: 84px;
+    margin-top: 72px;
     padding-left: 156px;
     padding-right: 156px;
+    padding-bottom: 120px;
 
     
 font-size: 20px;
 line-height: 1.2;
  }
+ .texts {
+    background-color: var(--white-text-color);
+ }
 
  .img .thumbs {
     flex-basis: calc((100%-144px) / 9);
+
     margin-left: 24px;
     margin-bottom: 48px;
+ }
+ .img .innovation {
+    box-shadow:  0px 1px 6px rgba(46 47 66 0.08);
+    
+    
+    border-radius: 4px 4px;
  }
 
 
 
  .img .third-tittle {
+    margin-top: 32px;
 color: var( --tittle-text-color)
 }
 
 .img .third-text {
+    margin-top: 8px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
