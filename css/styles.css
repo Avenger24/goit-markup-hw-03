@@ -57,8 +57,14 @@ img {
      
 }
 
+.contain {
+    border: 1px solid tomato;
+    
+}
+
 .mains.container {
     display: flex;
+    
 }
 
 
@@ -119,7 +125,7 @@ letter-spacing:0.03em;
     color: var(--tittle-text-color);
     text-decoration: none;
     font-size: 16px;
-    font-weight: 600px;
+    font-weight: 500;
     line-height: 1.5
    
 
@@ -166,8 +172,8 @@ color: var(--description-text-color);
 
 .hero {
     background-color: var( --tittle-text-color);
-    padding-top: 192px;
-   padding-bottom: 192px;
+    padding-top: 188px;
+   padding-bottom: 188px;
    text-align: center; 
 }
 
@@ -199,10 +205,10 @@ color: var(--white-text-color);
 .button {
     display: block;
     
-    
-font-size: 16px;
+        font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
 
-line-height:1.87;
 
 letter-spacing: 0.04em;
 
@@ -216,7 +222,7 @@ letter-spacing: 0.04em;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border: 1px solid #4D5AE5;
-    
+
     
     padding: 16px 32px;
 }
@@ -234,7 +240,7 @@ cursor: pointer;
 .main {
     padding-top: 120px;
     padding-bottom: 120px;
-    text-align: center;
+    
     background-color: #ffffff;
 }
 
@@ -249,8 +255,6 @@ cursor: pointer;
     display: flex;
     gap: 24px;
     
-    margin-left: auto;
-    margin-right: auto;
     
  
     
@@ -263,8 +267,7 @@ line-height: 1.2;
 }
  .quality {
     flex-basis: calc((100%-72px) / 4);
-    margin-left: auto;
-    margin-right: auto;
+   
     
     
     
@@ -519,7 +522,7 @@ border-radius: 4px;
 .second-button {
     
     padding: 12px 24px;
-    background-color: #E7E9FC;
+    background-color: var(--background-color);
     color: var(--brand-color);
     cursor: pointer;
     border: 1px solid #E7E9FC;
@@ -575,6 +578,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   .third-tittle {
     margin-top: 32px;
     font-size: 20px;
+    font-weight: 500;
 color: var( --tittle-text-color);
 }
 
