@@ -405,6 +405,7 @@ gap: 24px;
    
     background-color: var(--white-text-color);
 font-size: 20px;
+font-weight: 500;
 line-height: 1.2;
 color: var(--description-text-color);
     
@@ -574,6 +575,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 
   .third-tittle {
     margin-top: 32px;
+    
     font-size: 20px;
     font-weight: 500;
 color: var( --tittle-text-color);
