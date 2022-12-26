@@ -41,13 +41,15 @@ img {
 
 .mains {
     display: flex;
-    align-items: center;
-    margin: 0 auto;
+    
+    margin-left: auto;
+    margin-right: auto;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-     border: 1px solid #ffffff;
+     
 }
+
 
 
 .navigation {
@@ -106,6 +108,9 @@ letter-spacing:0.03em;
     
     color: var(--tittle-text-color);
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 1.5
    
 
 }
@@ -147,41 +152,58 @@ color: var(--description-text-color);
     color: var(--brand-color);
 }
 
+
+
 .hero {
     background-color: var( --tittle-text-color);
-    padding: 192px 474px;
-    
+    padding-top: 192px;
+   padding-bottom: 192px;
+   text-align: center; 
 }
+
+
+    
+
 
 .hero-tittle {
     
+    margin: 0 auto;
+   
+    
+    margin-bottom: 48px;
+    
+   
 
 max-width: 492px;
 font-size: 56px;
 line-height: 1.07;
 
 color: var(--white-text-color);
-margin-bottom: 48px;
+
 }
 
-.hero > .container {
-    text-align: center;
-}
+
 
 
 .button {
+    display: block;
+    
+    
 font-size: 16px;
-line-height:1.87;
 
+line-height:1.87;
 
 letter-spacing: 0.04em;
 
 
-
 }
+
+
 .main-button {
     background-color: var(--brand-color);
     color: var(--white-text-color);
+   
+    
     
     padding: 16px 32px;
 }
@@ -197,9 +219,10 @@ cursor: pointer;
 
 
 .main {
-    
-    
-    background-color: #ffffff ;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    background-color: #ffffff;
 }
 
 .main .visibility {
@@ -208,14 +231,13 @@ cursor: pointer;
 
 .main-qualities {
     
-    padding-left: 156px;
-    padding-right: 156px;
+    
    
     display: flex;
-    
     flex-wrap: wrap;
     
-    margin-left: 24px;
+    margin-left: auto;
+    margin-right: auto;
     
  
     
@@ -226,11 +248,11 @@ line-height: 1.2;
 
 
 }
-
-.main-qualities > .quality {
+ .quality {
     flex-basis: calc((100%-72px) / 5);
     margin-left: auto;
     margin-right: auto;
+    
     
     
    
@@ -242,15 +264,15 @@ line-height: 1.2;
 
 
 
-.quality .tittle {
+ .tittle {
     
-    padding-top: 120px;
+    
     margin-bottom: 8px;
 color: var(--tittle-text-color);
 }
 
-.quality .kind {
-    margin-bottom: 120px;
+.kind {
+    
   font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -261,14 +283,13 @@ color: var(--description-text-color);
 
 .main-photos {
     background-color: #ffffff;
-    
+   padding-bottom: 120px; 
 }
 
 .second-tittle {
-    margin-top: 120px;
+    
     margin-bottom: 72px;
-    padding-left: 559px;
-    padding-right: 559px;
+    
     
 font-size: 36px;
 line-height: 1.1;
@@ -282,24 +303,29 @@ color: var(--tittle-text-color);
 
 .pictures {
     display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 120px;
     padding-left: 156px;
-    padding-right: 156px;
+     padding-right: 156px;
+
+    
+      
+    
+    
+    
 }
  .gadget {
     flex-basis: calc((100%-48px) / 3);
-    margin-left: auto;
-    margin-right: auto;
+     
 }
 
+
 .photos {
-    background-color: var(--white-text-color);
-}
-.second {
+    background-color: var(--background-color);
+    padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 639px;
-    padding-right: 639px;
+}
+.seconds-tittle {
+    
+    text-align: center;
     margin-bottom: 72px;
 }
 
@@ -307,10 +333,10 @@ color: var(--tittle-text-color);
     display: flex;
     
      
-    margin-top: 72px;
+    
     padding-left: 156px;
     padding-right: 156px;
-    padding-bottom: 120px;
+    
 }
     .workers .people {
     flex-basis: calc((100%-72px) / 4);
@@ -329,7 +355,7 @@ color: var(--tittle-text-color);
     text-align: center;
     background-color: var(--white-text-color);
    
-    padding-bottom: 32px;
+    
 
    
     
@@ -348,7 +374,7 @@ margin: 24px;
     
     
    
-    
+    margin-top: 32px;
    margin-bottom: 8px;
     
 
@@ -390,6 +416,7 @@ color: var(--description-text-color);
     
     
 padding-top: 100px;
+padding-bottom: 100px;
 
 
     background-color: var(--tittle-text-color);
@@ -405,8 +432,8 @@ color: var(--background-color);
     font-family: Raleway, sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height:1.33;
-letter-spacing:0.03em;
+line-height: 1.33;
+letter-spacing: 0.03em;
 }
 
 .secondary-accent {
@@ -417,7 +444,7 @@ letter-spacing:0.03em;
 
     padding-left: 156px;
     padding-right: 1020px;
-    padding-bottom: 100px;
+   
     
     
     
@@ -430,6 +457,7 @@ font-weight: 400;
 
 .buttontype {
     background-color: #ffffff;
+    padding-bottom: 120px;
 }
 .buttontype .visibility {
     visibility: hidden;
@@ -444,7 +472,7 @@ font-weight: 400;
     margin-right: auto;
     padding-left:  427px;
     padding-right: 427px;
-    margin-bottom: 72px;
+    ;
 
 
     letter-spacing: 0.04em;
@@ -493,7 +521,7 @@ font-weight: 400;
     margin-top: 72px;
     padding-left: 156px;
     padding-right: 156px;
-    padding-bottom: 120px;
+    
 
     
 font-size: 20px;
@@ -501,6 +529,7 @@ line-height: 1.2;
  }
  .texts {
     background-color: var(--white-text-color);
+    border: 1px solid var(--background-color);
  }
 
  .img .thumbs {
@@ -518,12 +547,12 @@ line-height: 1.2;
 
 
 
- .img .third-tittle {
+  .third-tittle {
     margin-top: 32px;
 color: var( --tittle-text-color)
 }
 
-.img .third-text {
+.third-text {
     margin-top: 8px;
 font-weight: 400;
 font-size: 16px;
