@@ -57,7 +57,7 @@ img {
      
 }
 
-.mains .container {
+.mains.container {
     display: flex;
 }
 
@@ -185,6 +185,7 @@ color: var(--description-text-color);
    
 
 max-width: 492px;
+
 font-size: 56px;
 line-height: 1.07;
 
@@ -212,7 +213,9 @@ letter-spacing: 0.04em;
 .main-button {
     background-color: var(--brand-color);
     color: var(--white-text-color);
-   
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: 1px solid #4D5AE5;
     
     
     padding: 16px 32px;
@@ -343,33 +346,33 @@ color: var(--tittle-text-color);
     gap: 24px;
     
      
-    
-   
 }
-    .workers .people {
-    flex-basis: calc((100%-72px) / 4);
+   
 
-   
-    box-shadow:  0px 1px 6px rgba(46 47 66 0.08),
-    0px 1px 1px rgba(46 47 66 0.16),
-    0px 2px 2px rgba(46 47 66 0.08);
     
-    border-radius: 4px 4px;
-}
 
 .contentt {
-    border: 1px solid var(--background-color);
+    border: 0.5px solid #F4F4FD;
+    padding-bottom: 32px;
     
     text-align: center;
     background-color: var(--white-text-color);
    
+    flex-basis: calc((100%-72px) / 4);
+
+   
+    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 2px rgba(46, 47 66, 0.08);
     
+    border-radius: 0px 0px 4px 4px;
+}
 
    
     
 
 
-}
+
 
  .people {
 gap: 24px;
@@ -473,14 +476,14 @@ font-weight: 400;
 }
 .buttons {
      flex-basis: calc((100%-96px) / 5);
+    
 
     
-    display: block;
+    
     display: flex;
     gap: 24px;
     
-    margin-left: auto;
-    margin-right: auto;
+   justify-content: center;
    
      
     
@@ -500,6 +503,9 @@ font-weight: 400;
     padding: 12px 24px;
     background-color: var(--brand-color);
     color: var(--white-text-color);
+    border: 1px solid #E7E9FC;
+border-radius: 4px;
+    
 }
 
 .first-button:hover,
@@ -511,11 +517,13 @@ font-weight: 400;
 
 
 .second-button {
-    margin-left: 24px;
+    
     padding: 12px 24px;
     background-color: #E7E9FC;
     color: var(--brand-color);
     cursor: pointer;
+    border: 1px solid #E7E9FC;
+border-radius: 4px;
 }
 
 .second-button:hover,
@@ -534,8 +542,8 @@ font-weight: 400;
     display: flex; 
     flex-wrap: wrap;
     margin-top: 72px;
-    row-gap: 24px;
-    column-gap: 48px;
+    row-gap: 48px;
+    column-gap: 24px;
     
 
     
@@ -544,12 +552,16 @@ line-height: 1.2;
  }
  .texts {
     background-color: var(--white-text-color);
-    border: 1px solid var(--background-color);
+    border: 0.5px solid #F4F4FD;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    
+    padding-bottom: 32px;
+    padding-left: 16px
  }
 
 
  .img .innovation {
-    box-shadow:  0px 1px 6px rgba(46 47 66 0.08);
+    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08);
     
    
     
@@ -558,8 +570,11 @@ line-height: 1.2;
 
 
 
+
+
   .third-tittle {
     margin-top: 32px;
+    font-size: 20px;
 color: var( --tittle-text-color);
 }
 
