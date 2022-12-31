@@ -480,7 +480,7 @@ font-weight: 400;
     padding-top: 96px;
     padding-bottom: 120px;
 }
-.buttontype .secret-name {
+ .secret-name {
     position:
 absolute; 
 width: 1px; 
@@ -549,7 +549,7 @@ border-radius: 4px;
 
 .second-button:hover,
 .second-button:focus {
-    background-color: white;
+    background-color: #404bbf;
 }
 
 
